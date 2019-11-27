@@ -29,6 +29,7 @@ import java.util.Properties;
 public class AppConfig {
 
 
+
     @Value("${jdbc.url}")
     private String url;
     @Value("${jdbc.username}")
