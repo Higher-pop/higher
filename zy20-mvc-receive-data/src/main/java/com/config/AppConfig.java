@@ -28,6 +28,7 @@ import java.util.Properties;
 @PropertySource("classpath:db.properties")
 public class AppConfig {
 
+
     @Value("${jdbc.url}")
     private String url;
     @Value("${jdbc.username}")
